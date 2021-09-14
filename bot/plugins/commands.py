@@ -47,12 +47,11 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('💘Boss💘', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'),
-        InlineKeyboardButton('🎸Our Channel🎸', url ='https://t.me/KOT_BOTS')
+        InlineKeyboardButton('Channel 🎸', url='https://t.me/blasters_links'),
     ],[
-        InlineKeyboardButton('🔰Movie Request🔰', url='https://t.me/KOT_MOVIES_DISSECTION')
+        InlineKeyboardButton('🎪Movie Request🎪', url='https://t.me/Tentkottagroup')
     ],[
-        InlineKeyboardButton('😇OUR MAIN CHANNEL😇', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL')
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)

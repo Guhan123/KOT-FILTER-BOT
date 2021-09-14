@@ -1639,9 +1639,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
+            InlineKeyboardButton('Channel🎸', url='https://t.me/blasters_links'),
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('🎪 Movie Request 🎪', url='https://t.me/Tentkottagroup')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
